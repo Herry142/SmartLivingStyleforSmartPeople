@@ -167,3 +167,80 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
 .ul_site>.el:nth-child(4){
     margin: 0px;
 }
+
+.section_Specialized{
+    display: flex;
+    justify-content: center;
+}
+
+.container_Specialized{
+    padding-top: 78px;
+}
+
+.container_main_text{
+    margin-top: 114px;
+    text-align: center;
+    margin-bottom: 104px;
+}
+
+.main_text_Specialized2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 7.5px;
+    color: #656D72;
+}
+
+.main_text_Specialized{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #232E35; 
+}
+
+.ul_Specialized{
+    display: flex;
+    padding: 0px 120px 0px 125px;
+    padding-bottom: 184px;
+}
+
+.ul_Specialized>.el{
+    margin-right: 56px;
+    padding: 53px 57px 53px 57px;
+    text-align: center;
+}
+
+.ul_Specialized>.el:nth-child(3){
+    margin: 0px;
+}
+
+.ul_Specialized>.el>img{
+    padding: 16px;
+    background: #F5F3FE;
+    border-radius: 16px;
+}
+
+.main_text_Specialized_li{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232E35;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text_Specialized_li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #232E35;
+}
