@@ -19,10 +19,11 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
 .header{
     display: flex;
     justify-content: center;
-    margin-top: 41px;
+    padding-top: 41px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 73.5px;
 }
 
 .logo{
@@ -47,7 +48,7 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
 .nav_text{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #232E35;
@@ -94,6 +95,27 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
     font-size: 0px;
 }
 
+.hero_section{
+    display: flex;
+    justify-content: center;
+}
+
+.hero_container{
+    padding-top: 73.5px;
+    display: flex;
+    padding-bottom: 78px;
+}
+
+.container_main_text_header{
+    margin-right: 283px;
+    margin-left: 175px;
+}
+
+.line{
+    margin-bottom: 4px;
+    margin-right: 16px;
+}
+
 .name_text_header{
     font-family: 'Inter';
     font-style: normal;
@@ -102,4 +124,46 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
     line-height: 24px;
     letter-spacing: 7.5px;
     color: #656D72;
+    margin-bottom: 16px;
+}
+
+.name_Alex{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    color: #232E35;
+}
+
+.name_Smith{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    color: #7E74F1;
+}
+
+.text_header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #232E35;
+    margin-top: 32px;
+}
+
+.ul_site{
+    display: flex;
+    margin-top: 40px;
+}
+
+.ul_site>.el{
+    margin-right: 32px;
+}
+
+.ul_site>.el:nth-child(4){
+    margin: 0px;
 }
