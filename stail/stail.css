@@ -244,3 +244,32 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
     text-align: center;
     color: #232E35;
 }
+
+.section_Work{
+    display: flex;
+    justify-content: center;
+}
+
+.container_Work{
+   
+}
+
+.main_text_Work2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    color: #656D72;
+}
+
+.main_text_Work{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #232E35;  
+}
