@@ -251,7 +251,15 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
 }
 
 .container_Work{
-   
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 104px;
+   padding-bottom: 111px;
+}
+
+.container_main_text_Work{
+    margin-bottom: 80px;
+    margin-right: 137px;
 }
 
 .main_text_Work2{
@@ -272,4 +280,112 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
     font-size: 36px;
     line-height: 45px;
     color: #232E35;  
+}
+
+.ul_Work>.el{
+    margin-bottom: 24px;
+}
+
+.ul_Work>.el:nth-child(4){
+    margin-bottom: 0px;
+}
+
+.ul_Work>.el>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232E35;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    padding: 16.5px 0px 16.5px 32px;
+}
+
+.ul_Work>.el>.active{
+    font-weight: 500;
+    color: #7E74F1;
+}
+
+.right{
+    margin-left: 157px;
+}
+
+.container_right_text_work{
+    margin-top: 11px;
+}
+
+.main_text_work_right{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #232E35;
+    margin-bottom: 8px;
+}
+
+.adress_work{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656D72;
+    margin-bottom: 16px;
+}
+
+.time_work{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #656D72;
+    margin-bottom: 16px;
+}
+
+.ul_Work2{
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.ul_Work2>.el{
+    margin-right: 16px;
+}
+
+.ul_Work2>.el:nth-child(2){
+    margin-right: 0px;
+}
+
+.ul_Work2>.el>a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #656D72;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 4px 8px;
+    border: 1px solid #F1F1F1;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.ul_Work3>.el>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #656D72;
+    margin-bottom: 16px;
+}
+
+.ul_Work3>.el>p:nth-child(4){
+    margin: 0px;
 }
