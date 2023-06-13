@@ -684,6 +684,118 @@ ul,a,p,h1,h2,h3,h4,h5,h6,button{
     padding-bottom: 134px;
 }
 
+.form_container{
+    margin-right: 104px;
+}
+
+.Name_form_container{
+    margin-bottom: 16px;
+}
+
+.input_name{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 377px 15px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656D72;
+}
+
+.Email_form_container{
+    margin-bottom: 24px;
+}
+
+.input_email{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 377px 15px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656D72;
+}
+
+.message_form_container{
+    margin-bottom: 48px;
+}
+
+.input_text{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 377px 156px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656D72;
+}
+
+.button_form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F5F3FE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #7E74F1;
+    border: 1px solid #EAE6FE;
+    border-radius: 8px;
+    padding: 16px 250px;
+    cursor: pointer;
+}
+
+.container_right_text_form{
+    margin-top: 160px;
+}
+
+.ul_form>.el{
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.ul_form>.el:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.ul_form>.el>img{
+    padding: 16px;
+    background: #F5F3FE;
+    border-radius: 16px;
+}
+
+.main_text_form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232E35;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+
+.text_form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #656D72;
+    margin-left: 24px;
+}
+
 .section_footer{
     display: flex;
     justify-content: center;
